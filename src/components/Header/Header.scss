@@ -1,0 +1,22 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'ClashDisplay-Medium';
+
+    .header-item {
+        font-size: 16px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .header-item.search-box input {
+        width: 435px;
+        height: 40px;
+        background-color: #E4E4E4;
+        border-radius: 40px;
+        text-indent: 10px;
+    }
+}
